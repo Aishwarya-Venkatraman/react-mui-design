@@ -1,3 +1,7 @@
+.bannerContainer {
+  width: 100%;
+}
+
 .bannerContainer .carousel-indicators [data-bs-target] {
   width: 10px;
   height: 10px;
@@ -42,7 +46,25 @@
 
 @media screen and (min-width: 1024px) {
   .bannerContainer img {
+    height: 425px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape){
+  .bannerContainer img {
     height: 568px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1368px) and (orientation: landscape){
+  .bannerContainer img {
+    height: 568px;
+  }
+}
+
+@media screen and (min-width: 1181px) and (max-width: 1368px) and (orientation: landscape){
+  .bannerContainer img {
+    height: 472px;
   }
 }
 
