@@ -1,0 +1,170 @@
+.bannerContainer .carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.themeSelection {
+  position: fixed;
+  right: 0;
+  top: 25%;
+  padding: 5px;
+  background: #fff;
+}
+
+.themeSelection div {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #000;
+}
+
+.themeSelection:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 748px) {
+  .bannerRow {
+    padding: 35px 0;
+  }
+  .col-button button {
+    width: 20%;
+  }
+  .rightend {
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .bannerContainer img {
+    height: 520px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .bannerContainer img {
+    height: 568px;
+  }
+}
+
+@media screen and (max-width: 748px) {
+  .bannerContainer img {
+    height: 400px;
+  }
+  .gallery {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .col-button button {
+    width: 100%;
+  }
+  .text-field {
+    margin-bottom: 15px !important;
+  }
+  .form-section button {
+    width: 100%;
+  }
+  .bluetheme {
+    background: rgb(13, 71, 161) !important;
+  }
+  .greentheme {
+    background: rgb(27, 94, 32) !important;
+  }
+  .card-images {
+    padding-bottom: 15px;
+  }
+}
+
+.gallery {
+  display: flex;
+}
+
+.sideCards {
+  display: flex;
+  flex-flow: column;
+  background: #fff;
+  padding: 15px;
+}
+
+.text-field {
+  width: 100%;
+}
+
+.form-section button {
+  height: 100%;
+}
+
+.form-section p {
+  margin-top: 1rem !important;
+}
+
+.form-section {
+  padding: 20px 0;
+  border: 1px solid #eee;
+  background: #fbf5f5;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 749px) {
+  .middle-section {
+    padding: 30px 0;
+  }
+  .header-nav {
+    background: #fff !important;
+  }
+}
+
+.card-cont {
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 2px rgb(0 0 0 / 14%), 0px 1px 3px -1px rgb(0 0 0 / 12%) !important;
+  margin-bottom: 15px;
+}
+
+.card-button-primary {
+  display: block !important;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.card-contents {
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 2px rgb(0 0 0 / 14%), 0px 1px 3px -1px rgb(0 0 0 / 12%) !important;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card-img {
+  padding: 0 15px;
+}
+
+.card-button-primary2 {
+  display: block !important;
+  margin: 15px 0;
+  text-align: center;
+  padding: 15px !important;
+}
+
+.card-button-primary2 button {
+  width: 100%;
+}
+
+.row-button {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.sub-footer {
+  padding: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.footer {
+  padding: 40px 0;
+  background: #262424;
+  color: #fff;
+}
+
+.footer .footer-links {
+  padding: 25px 0;
+}
